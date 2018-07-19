@@ -123,7 +123,7 @@ namespace Neo.Services
 
             while (running)
             {
-                if (ShowPrompt)
+                /*if (ShowPrompt)
                 {
                     Console.ForegroundColor = ConsoleColor.Green;
                     Console.Write($"{Prompt}> ");
@@ -147,7 +147,7 @@ namespace Neo.Services
 #else
                     Console.WriteLine("error");
 #endif
-                }
+                }*/
             }
 
             Console.ResetColor();
